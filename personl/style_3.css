@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.side-left{
+	color: #fff;
+	background: #848484;
+	height: 50px;
+	line-height: 50px;
+}
+.side-left h1{
+	font-size: 20px;
+	margin-left: 30px;
+}
+.info{
+	border: 1px solid #d6d6d6;
+}
+.title{
+	background: #d6d6d6;
+	width:100px;
+	height: 100px;
+	line-height: 100px;
+	display: inline-block;
+	border: 1px solid #fff;
+}
+.title h2{
+	font-size: 16px;
+	margin-left: 16px;
+}
+.classical h4{
+	display: inline-block;
+	margin-right: 8px;
+}
+.classical p{
+	display: inline-block;
+	margin-right: 24px;
+}
+a{
+	margin-right: 24px;
+}
+.infomation{
+	display: inline-block;
+}
+.infomation h4{
+	display: inline-block;
+}
+.infomation p{
+	display: inline-block;
+}

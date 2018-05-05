@@ -1,0 +1,19 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: "微软雅黑";
+}
+h2{
+	margin-bottom: 20px;
+}
+.info{
+	margin:20px 0;
+}
+.classical h4{
+	display: inline-block;
+	margin-right: 8px;
+}
+.classical p{
+	display: inline-block;
+	margin-right: 24px;
+}

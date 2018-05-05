@@ -1,0 +1,39 @@
+﻿*{
+	margin:0;
+	padding:0;
+	font-family: "微软雅黑";
+}
+h2{
+	margin-bottom: 20px;
+}
+.info{
+	margin:20px 0;
+}
+.classical h4{
+	display: inline-block;
+	margin-right: 8px;
+}
+.classical p{
+	display: inline-block;
+	margin-right: 24px;
+}
+.per2{
+	overflow: hidden;
+}
+.side-left{
+	width:170px;
+	float: left;
+	background: #65a4fa;
+	color: #fff;
+	height: 740px;
+	position: relative;
+}
+.side-left h1{
+	position: absolute;
+	left: 53px;
+	top: 50px;
+}
+.side-right{
+	float: left;
+	margin-left: 30px;
+}

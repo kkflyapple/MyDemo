@@ -1,0 +1,152 @@
+body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,a,p,input,form,textarea{
+	margin: 0px;
+	padding:0px;
+	font-family: "Helvetica Nave",Helvetica,Arial, sans-serif;
+}
+
+ol,li,ul{
+	list-style: none;
+}
+
+a{
+	display: block;
+}
+
+img{
+	border:none;
+	display: block;
+}
+.clearfloat{
+	zoom:1;
+}
+.clearfloat:after{
+	display: block;
+	clear:both;
+	content: "";
+	visibility: hidden;
+	height: 0;
+}
+/*公共样式*/
+.wid{
+	width: 964px;
+	margin:0 auto;
+}
+/*顶部栏*/
+.top-header{
+	background-color: #333333;
+	height: 80px;
+}
+.header-logo{
+	padding:22px 0;
+	font-size: 26px;
+	color: #fff;
+	width: 64px;
+	display: inline-block;
+}
+.header-menu{
+	float: right;
+	width: 163px;
+	display: inline-block;
+	padding: 10px 0;
+}
+.header-menu li{
+	float: left;
+	margin-left: 10px;
+	font-size: 13px;
+}
+.header-menu li a:link{
+	color: #fff;
+}
+.header-menu li a:visited{
+	color: #fff;
+}
+.header-menu li a:hover{
+	color: #E4E4E4;
+}
+.header-menu li a:active{
+	color: #D3D3D3;
+}
+/*banner轮播图*/
+.banner{
+	height: 300px;
+	background-color: #66bb33;
+}
+.banner-main{
+	position: relative;
+}
+.banner-pic{
+	width: 100%;
+	height: 300px;
+}
+.banner-num ul{
+	position: absolute;
+	bottom:0;
+	right: 0;
+	padding: 10px 0;
+}
+.banner-num li{
+	display: inline-block;
+}
+.num-btn{
+	width: 30px;
+	height: 26px;
+	border: 1px solid #000;
+	line-height: 26px;
+	text-align: center;
+	margin-left: 5px;
+	background-color: #fff;
+	opacity:.5;
+}
+.active,.num-btn:hover{
+	padding-top: 20px;
+	opacity: 1;
+}
+/*contain*/
+.contain-nav{
+	overflow: hidden;
+}
+.contain-nav li{
+	float: left;
+	width: 106px;
+	height: 52px;
+	border: 1px solid #ccc;
+	text-align: center;
+	line-height: 52px;
+	border-radius: 20px 20px 0 0;
+	margin-top: 22px;
+	background: #eee;
+}
+.contain-nav .contain-nav-active{
+	background: #fff;
+	border-bottom:1px solid #fff;
+}
+.contains{
+	border-top: 1px solid #ccc;
+	margin-top: -1px;
+	margin-bottom: 10px;
+}
+.contain-layout{
+	margin-top: -1px;
+	border-top:1px solid #ccc;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+}
+.contain-layout div{
+	flex: auto;
+	margin-top:10px;
+	margin-right: 10px;
+	padding: 80px;
+	border: 1px solid #ccc;
+}
+/*footer*/
+.footer{
+	background: #666666;
+	height: 122px;
+}
+.footer-info{
+	margin: 0 auto;
+	width: 146px;
+	padding: 10px 0;
+	color: #fff;
+}
