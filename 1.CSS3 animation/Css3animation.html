@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    *{margin: 0;padding: 0;}
+    #contain{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .txtOrigin{
+        color: #000;
+        transition: color 2s;
+        -webkit-transition: color 2s;
+        -o-transition: color 2s;
+        -ms-transition: color 2s;
+        -moz-transition: color 2s;
+    }
+    .txtChange{
+        color:#2590F8;
+    }
+    .lineOrigin{
+        margin: 0 auto;
+        width: 0px;
+        height: 2px;
+        background: #2590F8;
+        margin-top: 6px;
+        transition: width 2s;
+        -webkit-transition: width 2s;
+        -o-transition: width 2s;
+        -ms-transition: width 2s;
+        -moz-transition: width 2s;
+    }
+    .lineChange{
+        width: 200px;
+    }
+    #btn{
+        width: 100px;
+        height: 30px;
+        margin-top: 10px;
+        background: #fff;
+        border:2px solid #878787;
+        border-radius:10px;
+    }
+    </style>
+</head>
+<body>
+    <div id="contain">
+        <h1 class="txtOrigin">前端学院</h1>
+        <div class="lineOrigin"></div>
+        <button id="btn">切换样式</button>
+    </div>
+    
+
+<script>
+    var oTxt = document.querySelector(".txtOrigin"),
+        oLine = document.querySelector(".lineOrigin"),
+        btn = document.getElementById('btn');
+
+    btn.onclick = function(){
+        if(oTxt.className == "txtOrigin" || oLine.className == "lineOrigin"){
+            oTxt.className = "txtOrigin txtChange";
+            oLine.className = "lineOrigin lineChange";
+        }else{
+            oTxt.className = "txtOrigin";
+            oLine.className = "lineOrigin";
+        }
+    }
+</script>
+</body>
+</html>
